@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "Darius Kihuha",
+      "email": "darius@mail.com",
+      "phone": "+254717309379",
+      "password": "$2b$08$k8cS1G0zusFd8is2M5jMx.iHPB8n57SEg6YO1TLAufFCR3xlIv.by"
+    },
+    {
+      "name": "Darius Kihuha",
+      "email": "kihuha@mail.com",
+      "phone": "+254717309378",
+      "password": "$2b$08$R2Lntr6HLyjVzcOo76UYpuih3lDkS1j0bTO0wRm8PhVCyIsd92use"
+    }
+  ],
+  "bookings": [
+    {
+      "user": [
+        {
+          "name": "Darius Kihuha",
+          "email": "darius@mail.com",
+          "phone": "+254717309379",
+          "password": "$2b$08$k8cS1G0zusFd8is2M5jMx.iHPB8n57SEg6YO1TLAufFCR3xlIv.by"
+        }
+      ],
+      "fromDate": "15201632898",
+      "toDate": "1537009090212",
+      "people": [{ "name": "Winfred Kananu", "age": 25 }]
+    },
+    {
+      "user": [
+        {
+          "name": "Darius Kihuha",
+          "email": "darius@mail.com",
+          "phone": "+254717309379",
+          "password": "$2b$08$k8cS1G0zusFd8is2M5jMx.iHPB8n57SEg6YO1TLAufFCR3xlIv.by"
+        }
+      ],
+      "fromDate": "15201632898",
+      "toDate": "1537009090212",
+      "people": [{ "name": "Winfred Kananu", "age": 25 }]
+    },
+    {
+      "user": [
+        {
+          "name": "Darius Kihuha",
+          "email": "darius@mail.com",
+          "phone": "+254717309379",
+          "password": "$2b$08$k8cS1G0zusFd8is2M5jMx.iHPB8n57SEg6YO1TLAufFCR3xlIv.by"
+        }
+      ],
+      "fromDate": "15201632898",
+      "toDate": "1537009090212",
+      "people": [{ "name": "Winfred Kananu", "age": 25 }]
+    }
+  ],
+  "destinations": []
+}

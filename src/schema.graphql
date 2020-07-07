@@ -1,0 +1,60 @@
+type User {
+  name: String
+  email: String
+  phone: String
+}
+
+type AuthDetails {
+  user: User
+  token: String
+}
+
+type Person {
+  name: String!
+  age: Int!
+}
+
+input PersonInput {
+  name: String!
+  age: Int!
+}
+
+type Booking {
+  user: User!
+  fromDate: String!
+  toDate: String!
+  people: [Person]
+}
+
+type Destination {
+  id: Int
+  name: String
+  location: String
+  image: String
+}
+
+type Query {
+  allUsers(token: String!): [User]
+  allBookings(token: String!): [Booking]
+  allDestinations(token: String!): [Destination]
+}
+
+type Mutation {
+  createUser(
+    name: String
+    email: String!
+    phone: String!
+    password: String!
+    token: String!
+  ): User
+
+  login(email: String!, password: String!): AuthDetails
+
+  createBooking(
+    email: String!
+    fromDate: String!
+    toDate: String!
+    people: [PersonInput]
+    token: String!
+  ): Booking
+}
